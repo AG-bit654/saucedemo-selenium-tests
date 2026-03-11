@@ -28,7 +28,9 @@ jobs:
 
     - name: Build
       run: dotnet build
-      
+
+    - name: Fix permissions
+      run: chmod +x /home/runner/work/saucedemo-selenium-tests/saucedemo-selenium-tests/bin/Debug/net10.0/selenium-manager/linux/selenium-manager
 
     - name: Run tests
       run: dotnet test
