@@ -15,9 +15,13 @@ namespace vjezba
             options.AddArgument("--remote-allow-origins=*");
             options.AddArgument("--disable-notifications");
             options.AddArgument("--blink-settings=imagesEnabled=false");
-            options.AddArgument("--headless");
             options.AddArgument("--no-sandbox");
             options.AddArgument("--disable-dev-shm-usage");
+
+            if (Environment.GetEnvironmentVariable("CI") == "true")
+{
+            options.AddArgument("--headless");
+}
             
             
             // Inicijalizacija bez ikakvih putanja - Selenium 4.24 će sam uraditi ostalo

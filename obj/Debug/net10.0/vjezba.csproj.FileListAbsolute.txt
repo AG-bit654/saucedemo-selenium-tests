@@ -170,3 +170,4 @@ C:\Users\T470\Desktop\Kurs387_ponavljanje\SauceDemo_vjezba\obj\Debug\net10.0\ref
 C:\Users\T470\Desktop\Kurs387_ponavljanje\SauceDemo_vjezba\obj\Debug\net10.0\vjezba.pdb
 C:\Users\T470\Desktop\Kurs387_ponavljanje\SauceDemo_vjezba\obj\Debug\net10.0\vjezba.genruntimeconfig.cache
 C:\Users\T470\Desktop\Kurs387_ponavljanje\SauceDemo_vjezba\obj\Debug\net10.0\ref\vjezba.dll
+c:\Users\T470\Desktop\Kurs387_ponavljanje\SauceDemo_vjezba\obj\Debug\net10.0\vjezba.sourcelink.json
