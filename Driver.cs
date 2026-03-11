@@ -36,9 +36,6 @@ namespace vjezba
             }
         }
 
-        internal static object FindElement(By by)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }
